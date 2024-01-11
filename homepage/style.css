@@ -2,12 +2,13 @@ body{
     margin: 0px;
     font-family: 'Poppins';
     position: relative;
+    padding: 0;
 }
 
 .image-cont{
     background-image: url('Farming.jpg');
     height: 100dvh;
-    width: 99vw;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -164,7 +165,7 @@ nav{
 .focus-cont{
     background-color: #1e1e1e;
     height: 100vh;
-    width: 99vw;
+    width: 100%;
     color: #f5faff;
     display: flex;
     flex-direction: column;
